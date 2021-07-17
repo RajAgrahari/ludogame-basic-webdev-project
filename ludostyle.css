@@ -1,0 +1,116 @@
+
+
+h1 {
+    font-size: 4rem;
+    font-family: cursive;
+    color: rgb(240, 206, 15);
+    text-shadow: 1px 1px white;
+    margin-bottom: 1rem;
+}
+
+p {
+    font-size: 3.5rem;
+    font-family: cursive;
+    color: rgb(231, 29, 29);
+    text-shadow: 0.5px 0.5px white;
+    margin: 2.5rem 5px;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-top: 0%;
+}
+
+.dice {
+    display: flex;
+    flex-direction: row;
+    margin: 0 4rem 4rem 4rem;
+}
+
+.dice1 {
+    width: 50%;
+    margin-right: auto;
+}
+
+.dice2 {
+    width: 50%;
+    margin-right: auto;
+}
+
+body {
+    background-color:rgb(21, 104, 13);
+    background-size: cover;
+}
+
+button {
+    margin: auto;
+    margin-top: 3px;
+    background-color: rgb(201, 13, 13);
+    color: white;
+    border-radius: 50%;
+    height: 3rem;
+    width: 3rem;
+    border: 2px solid white;
+}
+
+button:hover {
+    background-color: rgb(17, 0, 255);
+    animation: spin 0.7s 1;
+    cursor: pointer;
+}
+.pd{
+        animation: spin 0.7s 1;
+    }
+@keyframes spin {
+    to {
+        transform: rotate(1turn);
+    }
+}
+
+@media(max-width:1309px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 1.5rem;
+    }
+
+    img {
+        width: 10rem;
+    }
+
+    .dice {
+        display: flex;
+        flex-direction: row;
+        margin: 0.2rem 0.2rem 0.2rem 0.2rem;
+    }
+
+    .dice1 {
+        width: 50%;
+        margin-right: auto;
+    }
+
+    .dice2 {
+        width: 50%;
+        margin-right: auto;
+
+    }
+
+    button {
+        margin: auto;
+        margin-top: 3px;
+        background-color: rgb(233, 8, 8);
+        color: white;
+        border-radius: 50%;
+        height: auto;
+        width: auto;
+        border: 2px solid white;
+    }
+}
+@media(max-width:768px){
+    .container {
+    width: 100%;}
+}
